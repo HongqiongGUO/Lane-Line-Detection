@@ -30,6 +30,7 @@
 
 ## Introduction
 This project is used to detect the lane line based on the Python and Open CV.
+
 __Project Adress:__ [Lane Line Detection](https://www.kaggle.com/code/soumya044/lane-line-detection)
 ***
 ## Download Everything You Need
@@ -465,9 +466,8 @@ print(f"Video processing completed! Total time of {end_time - start_time:.2f} s"
 ```
 
 > __If the code runs well, we will get the following video.__
-> <video controls width="100%">
-  <source src="solidWhiteRight_fixed.mp4" type="video/mp4">
-</video>
+> <img src="Detected Video.png" alt="Detected Video">
+> __filename:__ "solidWhiteRight_fixed.mp4"
 
 ## Shortcomings
 __1. Hough Transform is fit for Straight Lines only but in reality curved lane lines exists where this will fail.__
